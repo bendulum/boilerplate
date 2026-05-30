@@ -20,5 +20,8 @@
         "javascript",
         "typescript",
         "svelte"
-    ]
+    ],
+    "files.associations": {
+        "*.css": "tailwindcss"
+    }
 }

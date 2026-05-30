@@ -4,6 +4,9 @@
     "[json]": {
         "editor.tabSize": 2
     },
+    "[yml]": {
+        "editor.tabSize": 2
+    },
     "editor.insertSpaces": true,
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "dbaeumer.vscode-eslint",

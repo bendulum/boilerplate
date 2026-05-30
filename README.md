@@ -30,6 +30,8 @@ npm run build
 - `npm run build` — production build
 - `npm run lint` — check code
 - `npm run lint:fix` — auto-fix
+- `npm run worker:dev` — start cloudflare worker locally
+- `npm run worker:deploy` — deploy cloudflare worker
 
 ## VS Code Recommended Settings
 

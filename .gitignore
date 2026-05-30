@@ -1,0 +1,16 @@
+# Dependencies
+node_modules
+
+# Build output
+dist
+
+# Parcel
+.parcel-cache
+
+# Cloudflare / Wrangler
+cfw/.wrangler
+.wrangler
+
+# Logs and misc
+*.log
+.DS_Store

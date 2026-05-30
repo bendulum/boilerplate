@@ -1,0 +1,21 @@
+{
+    "editor.detectIndentation": false,
+    "editor.tabSize": 4,
+    "[json]": {
+        "editor.tabSize": 2
+    },
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "eslint.validate": [
+        "javascript",
+        "typescript",
+        "svelte"
+    ]
+}

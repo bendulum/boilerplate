@@ -16,6 +16,9 @@
     "[css]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
+    "[php]": {
+        "editor.defaultFormatter": "mansoorkhan96.php-cs-fixer"
+    },
     "eslint.validate": [
         "javascript",
         "typescript",

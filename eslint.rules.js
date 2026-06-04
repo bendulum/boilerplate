@@ -2,7 +2,7 @@ export default {
     /* ==================== Stylistic Rules ==================== */
 
     'stylistic/indent': ['error', 4],
-    'stylistic/quotes': ['error', 'single', { avoidEscape: false, allowTemplateLiterals: true }],
+    'stylistic/quotes': ['error', 'single', { avoidEscape: false, allowTemplateLiterals: 'always' }],
     'stylistic/semi': ['error', 'always', { omitLastInOneLineBlock: false }],
     'stylistic/comma-dangle': ['error', 'always-multiline'],
     'stylistic/comma-style': ['error', 'last'],

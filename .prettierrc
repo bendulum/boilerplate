@@ -12,7 +12,8 @@
     {
       "files": [
         "*.html",
-        "*.css"
+        "*.css",
+        "*.php"
       ],
       "options": {
         "tabWidth": 4,

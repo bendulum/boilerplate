@@ -61,7 +61,7 @@ export default {
     'default-case': 'error',
     'default-case-last': 'error',
     'dot-notation': 'error',
-    'eqeqeq': ['error', 'always', { null: 'ignore' }],
+    eqeqeq: ['error', 'always', { null: 'ignore' }],
     'no-alert': 'error',
     'no-caller': 'error',
     'no-constructor-return': 'error',
@@ -98,11 +98,11 @@ export default {
     'no-nested-ternary': 'error',
     'no-unneeded-ternary': 'error',
     'one-var': ['error', 'never'],
-    'camelcase': ['error', { properties: 'never', ignoreDestructuring: true }],
+    camelcase: ['error', { properties: 'never', ignoreDestructuring: true }],
 
     /* Off / Relaxed */
     'no-eq-null': 'off',
-    'radix': 'off',
+    radix: 'off',
     'require-await': 'warn',
     'no-continue': 'off',
     'no-shadow': 'off',

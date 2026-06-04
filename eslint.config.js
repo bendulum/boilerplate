@@ -8,10 +8,12 @@ import json from '@eslint/json';
 
 import customRules from './eslint.rules.js';
 
+// prettier-ignore
 const ignores = [
     '**/node_modules/**',
     '.git/',
     'dist/**',
+    '**/dist/**',
     'build/**',
     '.parcel-cache/**',
     '.wrangler/**',

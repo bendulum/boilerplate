@@ -79,6 +79,9 @@ export default [
     {
         files: ['**/*.svelte'],
         languageOptions: {
+            globals: {
+                ...globals.browser,
+            },
             parser: svelteParser,
             parserOptions: {
                 parser: { ts: tsParser, default: tsParser },

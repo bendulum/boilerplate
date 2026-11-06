@@ -1,10 +1,10 @@
 # Static Site Boilerplate
 
-Modern, minimal boilerplate for static HTML/JS sites using **Parcel 2**.
+Modern, minimal boilerplate for static HTML/JS/Svelte sites using **Vite**.
 
 ## Features
 
-- Parcel dev server + bundling
+- Vite dev server + bundling
 - Tailwind CSS v4
 - Svelte support
 - HTML partials (`<include>`)
@@ -28,10 +28,21 @@ npm run build
 
 - `npm run dev` — start development server
 - `npm run build` — production build
+- `npm run preview` — production build and start
 - `npm run lint` — check code
 - `npm run lint:fix` — auto-fix
 - `npm run worker:dev` — start cloudflare worker locally
 - `npm run worker:deploy` — deploy cloudflare worker
+
+## Merging upstream
+
+```bash
+git remote add boilerplate https://github.com/bendulum/boilerplate.git
+git fetch boilerplate
+git merge boilerplate/main --allow-unrelated-histories
+git status
+```
+
 
 ## VS Code Recommended Settings
 

@@ -4,9 +4,14 @@ import posthtml from 'posthtml';
 import include from 'posthtml-include';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { globSync } from 'glob';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const srcDir = path.resolve(__dirname, 'src');
+
+const pages = globSync('*.html', {
+    cwd: srcDir,
+}).map((file) => path.resolve(srcDir, file));
 
 // PostHTML plugin for HTML partials
 function posthtmlIncludes() {
@@ -50,5 +55,9 @@ export default defineConfig({
     build: {
         outDir: '../dist',
         emptyOutDir: true,
+
+        rollupOptions: {
+            input: pages,
+        },
     },
 });
